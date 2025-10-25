@@ -11,7 +11,7 @@ class Translation(object):
 Usᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ
 
 """
-    
+
 
     HELP_TEXT = """
 **Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ** 🤔
@@ -27,12 +27,12 @@ Usᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍ
 𖣔 Usᴇ `/caption` ᴛᴏ sᴇᴛ ᴄᴀᴘᴛɪᴏɴ ᴀs Rᴇᴘʟʏ ᴛᴏ ᴍᴇᴅɪᴀ
 
 """
-    
+
     ABOUT_TEXT ="""
 ╭───────────⍟
 ├📛 **Mʏ Nᴀᴍᴇ** : URL Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ
-├📢 **Fʀᴀᴍᴇᴡᴏʀᴋ** : <a href=https://docs.pyrogram.org/>PʏʀᴏBʟᴀᴄᴋ 2.7.1</a>
-├💮 **Lᴀɴɢᴜᴀɢᴇ** : <a href=https://www.python.org>Pʏᴛʜᴏɴ 3.13.5</a>
+├📢 **Fʀᴀᴍᴇᴡᴏʀᴋ** : <a href=https://docs.pyrogram.org/>PʏʀᴏBʟᴀᴄᴋ 2.7.4</a>
+├💮 **Lᴀɴɢᴜᴀɢᴇ** : <a href=https://www.python.org>Pʏᴛʜᴏɴ 3.13.7</a>
 ├💾 **Dᴀᴛᴀʙᴀsᴇ** : <a href=https://cloud.mongodb.com>MᴏɴɢᴏDB</a>
 ├🚨 **Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ** : <a href=https://t.me/NT_BOTS_SUPPORT>Nᴛ Sᴜᴘᴘᴏʀᴛ</a>
 ├🥏 **Cʜᴀɴɴᴇʟ** : <a href=https://t.me/NT_BOT_CHANNEL>Nᴛ Bᴏᴛ Cʜᴀɴɴᴇʟ</a>
@@ -42,15 +42,15 @@ Usᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍ
 
 
     PROGRESS = """
-➩📦 Pʀᴏɢʀᴇꜱꜱ : {0}%
-➩✅ Dᴏɴᴇ : {1}
-➩📁 Tᴏᴛᴀʟ : {2}
-➩🚀 Sᴘᴇᴇᴅ : {3}/s
-➩🕒 Tɪᴍᴇ : {4}
-
+┣📦 Pʀᴏɢʀᴇꜱꜱ : {0}%
+┣ ✅ Dᴏɴᴇ : {1}
+┣ 📁 Tᴏᴛᴀʟ : {2}
+┣ 🚀 Sᴘᴇᴇᴅ : {3}/s
+┣ 🕒 Tɪᴍᴇ : {4}
+┗━━━━━━━━━━━━━━━━━━━━
 """
 
-            PROGRES = """
+    PROGRES = """
 `{}`\n{}"""
 
 
