@@ -11,9 +11,9 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    API_ID = int(os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8279094169:AAESX85YG88sZKSPqgZuiQbOBVmJoQmhq_s")
+    API_ID = int(os.environ.get("API_ID", "29534256"))
+    API_HASH = os.environ.get("API_HASH", "8a2b0ee3e07f6903bff02dd53cb93ff8")
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     MAX_FILE_SIZE = 2194304000
@@ -30,16 +30,17 @@ class Config(object):
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://asgarim316:3lgglfXo8mfOti5p@filetolink.p585kyz.mongodb.net/?retryWrites=true&w=majority&appName=Filetolink")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002613485817"))
     LOGGER = logging
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1623757589"))
     SESSION_NAME = "UploaderXNTBot"
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    SESSION_NAME = "LinkBoltBot"
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002613485817")
 
     TG_MIN_FILE_SIZE = 2194304000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Linktofile45bot")
     ADL_BOT_RQ = {}
 
     # Set False off else True
