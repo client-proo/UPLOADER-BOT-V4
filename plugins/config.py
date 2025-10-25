@@ -35,7 +35,7 @@ class Config(object):
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002613485817"))
     LOGGER = logging
     OWNER_ID = int(os.environ.get("OWNER_ID", "1623757589"))
-    SESSION_NAME = "UploaderXNTBot"
+    SESSION_NAME = "LinkBoltBot"
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002613485817")
 
     TG_MIN_FILE_SIZE = 2194304000
